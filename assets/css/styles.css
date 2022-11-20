@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+
+  --font-color: #80192e; 
+
+}
+
+
+
+.title{
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.groupstage{
+  background-color: #d9d9d9;
+  color: var(--font-color);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 1rem;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.subtitle{
+  font-size: 25px;
+}
+
+.subtitle-2{
+  font-size: 20px;
+}
+
+.prob-rate{
+  color: var(--font-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.winner{
+  color: #008037;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.grouptable1{
+  max-width: 450px;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem;
+}
